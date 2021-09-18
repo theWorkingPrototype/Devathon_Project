@@ -137,20 +137,6 @@
     transition-duration: 0s;
   }
 }
-.remove{
-  animation: rem .5s ease forwards;
-}
-.unremove{
-  animation: rem .5s ease backwards;
-}
-@keyframes rem {
-  0%{
-    opacity: 1;
-  }
-  100%{
-    opacity:0;
-  }
-}
 a{
   cursor: pointer;
 }
